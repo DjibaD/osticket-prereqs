@@ -19,16 +19,50 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- 1. Web Server
+Apache or Nginx: osTicket requires a web server to serve its pages. Apache is the most common choice, but Nginx can also be used with some adjustments.
+
+- 2. PHP Version
+PHP 7.4 or later (recommended PHP 8.0 or later)
+Ensure PHP is installed and properly configured on your server.
+osTicket uses several PHP extensions, so make sure these are enabled (see below).
+
+- 3. PHP Extensions
+You will need to install and enable the following PHP extensions:
+
+PHP MySQLi
+PHP GD (for image manipulation)
+PHP IMAP (for email integration)
+PHP JSON (for handling JSON data)
+PHP Mbstring (for multi-byte string handling)
+PHP cURL (optional, for email and ticket system integrations)
+
+- 4. Database Server
+MySQL (version 5.5 or later) or MariaDB
+You’ll need a MySQL/MariaDB database to store all your ticketing data.
+Create a database and user before installing osTicket.
+
+- 5. File Permissions
+You’ll need to ensure proper file permissions for the osTicket directories, especially for directories like:
+include/
+attachments/
+uploads/
+admin/
+These directories must be writable by the web server.
+
+- 6. Operating System
+osTicket can be installed on any Unix-based OS (Linux, Ubuntu, CentOS) or Windows. A Linux server is often the most recommended setup.
+
+- 7. Email Configuration (optional but recommended)
+If you plan to integrate email support (such as ticket creation via email), you will need:
+SMTP server information for outgoing emails.
+IMAP or POP3 server information for fetching emails.
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="![image](https://github.com/user-attachments/assets/c86e5bfa-da42-4e67-8912-bb06e17ce9f8)
+"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
