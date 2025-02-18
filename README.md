@@ -61,11 +61,21 @@ IMAP or POP3 server information for fetching emails.
 <h2>Installation Steps</h2>
 
 <p>
-<img src="![image](https://github.com/user-attachments/assets/c86e5bfa-da42-4e67-8912-bb06e17ce9f8)
-"/>
+Download osTicket:
+Visit the official osTicket website and download the latest stable version.
+
+Unzip & Place Files:
+Unzip the osTicket files and upload them to your server, typically in the public_html or www directory of your web server.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/boaNJwx.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Within the VM (osticket-vm), download the osTicket-Installation-Files.zip and unzip it onto your desktop. The folder should be called “osTicket-Installation-Files”
+We will use the files in this folder to install osTicket and some of the dependencies.
+
 </p>
 <br />
 
