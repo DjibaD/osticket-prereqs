@@ -107,7 +107,12 @@ Password: root
 <br />
 
 <p>
-<img src="https://imgur.com/ZDH6791"/>
+
+
+  <img src="https://i.imgur.com/ZDH6791.jpeg" alt="Image description"/>
+
+
+
 </p>
 <p>
 
