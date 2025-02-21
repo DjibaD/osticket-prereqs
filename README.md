@@ -144,7 +144,7 @@ Refresh the osTicket site in your browser, observe the changes
 <br />
 
 <p>
-<img src="https://i.imgur.com/nThtG7R.jpeg"/>
+<img src="https://i.imgur.com/VAZ9tJB.jpeg"/>
 </p>
 <p>
 Rename: ost-config.php
